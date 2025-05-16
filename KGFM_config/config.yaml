@@ -41,4 +41,4 @@ train:
   log_interval: 100
   batch_per_epoch: 80000
 
-checkpoint: D:\papers\KG\multi-hop\MOTIF\MOTIF\ckpts\motif_3g.pth
+checkpoint: ..\kgmodel_source\kgfm.pth
