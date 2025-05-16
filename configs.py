@@ -6,7 +6,7 @@ def train_args():
     parser.add_argument('--train_tasks', type=str, default="1p.2p.3p.2i.3i")  # 1p.2p.3p.2i.3i.ip.pi.2in.3in.inp.pin.pni.2u.up
     parser.add_argument('--test_tasks', type=str, default="1p")
     parser.add_argument('--evaluate_union', type=str, default="DNF")
-    parser.add_argument('--init_ckpt', type=str, default="./Llama-2-7b-chat-hf_LORA/pf_all_epoch_3/model.pth")  # "./Llama-2-7b-chat-hf_LORA/pf_all_epoch_3/model.pth"
+    parser.add_argument('--init_ckpt', type=str, default="./Llama-2-7b-chat-hf_LORA/best_pretrain/model.pth")  # "./Llama-2-7b-chat-hf_LORA/pf_all_epoch_3/model.pth"
     parser.add_argument('--llm_path', type=str, default="./llm_source")
     parser.add_argument('--save_path', type=str, default="save_model")
     parser.add_argument('--llm_name', type=str, default="Llama-2-7b-chat-hf")  # flan-t5-large  Llama-2-7b-chat-hf
