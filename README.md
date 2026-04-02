@@ -52,3 +52,18 @@ accelerate configuration saved at /home/wsco/.cache/huggingface/accelerate/defau
 ```bash
 accelerate launch pretrain.py
 ```
+---
+
+## Citation
+
+If this project is helpful to you, please consider citing:
+
+```bibtex
+@inproceedings{
+zhuo2026knowledge,
+title={Knowledge Reasoning Language Model: Unifying Knowledge and Language for Inductive Knowledge Graph Reasoning},
+author={Xingrui Zhuo and Jiapu Wang and Gongqing Wu and Zhongyuan Wang and Jichen Zhang and Shirui Pan and Xindong Wu},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=2g8EmFwNTB}
+}
