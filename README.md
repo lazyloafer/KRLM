@@ -1,5 +1,5 @@
-# KRLM
-# Simple Setup & Run for LoRA Fine-Tuning
+# Knowledge Reasoning Language Model: Unifying Knowledge and Language for Inductive Knowledge Graph Reasoning (ICLR 2026)
+# Simple Setup & Run for KRLM
 
 ## 1. Download Pre-trained LoRA Weights and Preprocessed Data
 
