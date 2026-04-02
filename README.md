@@ -56,7 +56,7 @@ accelerate launch pretrain.py
 
 ## Citation
 
-If this project is helpful to you, please consider citing:
+If this project is helpful to you, please citing:
 
 ```bibtex
 @inproceedings{
