@@ -5,7 +5,7 @@
 
 # Simple Setup & Run for KRLM
 
-## 1. Download Pre-trained LoRA Weights and Preprocessed Data
+## 1. Download model Weights and Preprocessed Data
 
 First, download the required pre-trained LoRA weights and data from the following link:
 
@@ -18,7 +18,9 @@ After downloading, unzip the `dataset_and_PTweight_GoogleDrive.zip` file and pla
 
 Then, download the pre-trained LLM checkpoint, here we use [Llama-2-7b-chat-hf](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf). Move the LLM checkpoint to `./llm_source`.
 
-## 2. Accelerate Configuration for Multi-GPU Environment
+## 2. Create Conda Environment [Here](https://github.com/lazyloafer/KRLM/blob/main/environment.yml)
+
+## 3. Accelerate Configuration for Multi-GPU Environment
 
 Run the following command to configure the multi-GPU environment:
 
@@ -45,7 +47,7 @@ no
 accelerate configuration saved at /home/wsco/.cache/huggingface/accelerate/default_config.yaml
 ```
 
-## 3. Run Training and Evaluation Scripts
+## 4. Run Training and Evaluation Scripts
 
 ```bash
 accelerate launch pretrain.py
