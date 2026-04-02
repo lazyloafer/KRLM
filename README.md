@@ -45,7 +45,7 @@ no
 accelerate configuration saved at /home/wsco/.cache/huggingface/accelerate/default_config.yaml
 ```
 
-## 3. Run Training and Evaluation
+## 3. Run Training and Evaluation Scripts
 
 ```bash
 accelerate launch pretrain.py
