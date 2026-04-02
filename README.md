@@ -16,6 +16,8 @@ After downloading, unzip the `dataset_and_PTweight_GoogleDrive.zip` file and pla
 - Place the `model.pth` file into the root directory of the project under `./Llama-2-7b-chat-hf_LORA`.
 - Replace the `data` folder with the `./data` directory in the project.
 
+Then, download the pre-trained LLM checkpoint, here we use [Llama-2-7b-chat-hf](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf). Move the LLM checkpoint to `./llm_source`.
+
 ## 2. Accelerate Configuration for Multi-GPU Environment
 
 Run the following command to configure the multi-GPU environment:
