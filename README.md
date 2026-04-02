@@ -3,7 +3,7 @@
   <img src="figure/model.png" width="600"/>
 </p>
 
-# Simple Setup & Run for KRLM
+# Quick Run for KRLM
 
 ## 1. Download model Weights and Preprocessed Data
 
