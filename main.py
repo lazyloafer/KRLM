@@ -89,7 +89,7 @@ kgmodel = KnowledgeEncoder(
         rel_model_cfg=mofit_cfg.model.relation_model,
         entity_model_cfg=mofit_cfg.model.entity_model,
     )
-state = torch.load('./kgmodel_source/motif_3g.pth', map_location='cpu')
+state = torch.load('./kgmodel_source/kgfm.pth', map_location='cpu')
 kgmodel.load_state_dict(state['model'])
 # for name, param in kgmodel.named_parameters(): # 26,291,138
 #     param.requires_grad = False
